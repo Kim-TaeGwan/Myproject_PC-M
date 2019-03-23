@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+/* node-sass --watch scss/main.scss css/main.css */
+
+

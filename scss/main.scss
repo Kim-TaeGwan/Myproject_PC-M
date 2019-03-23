@@ -1,0 +1,154 @@
+.container{
+    width: 100%;
+    .cursor{
+        cursor: pointer;
+    }  
+    .header{
+        width: 100%;
+        .topMenu{
+            padding: 10px 5%;
+            background: #303f9f;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: #ffffff;
+            overflow: hidden;
+            .language{
+                content:"\f0ac";
+                opacity: 0.5;
+                float: left;
+            }
+            .signUp{
+                content:"\f2bd";
+                opacity: 0.5;
+                float: right;
+            }
+        }
+        .mainMenu{
+            background-color: #3f51b5;
+            color: #fff;
+            padding: 25px 7% 25px 5%;
+            font-size: 24px;
+            text-align: center;
+            overflow: hidden;
+            .menu{
+                content:"\f0c9";
+                float: left;
+                width: 20px;
+            }
+            .logo{
+                width: 92px;
+                font-weight: bold;
+                font-family: 'Montserrat', sans-serif;
+            }    
+            .cart{
+                content:"\f27a";
+                float: right;
+                width: 20px;
+            }
+        }
+    }
+    .content{
+        border: 1px solid red;
+        padding: 10px 5%;
+        .content_filter{
+            background-color: #fff;
+            .filter{
+                width: 100%;
+                background-color: #fff;
+                // border-radius:5px;
+                font-size: 16px;
+                padding: 13px 20px;
+                background: url("../img/menu_arrow.gif") no-repeat 100% 50%;
+                appearance: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+
+                -webkit-border-radius:5px;
+                -moz-border-radius:5px;
+                -ms-border-radius:5px;
+                -o-border-radius:5px;
+                option{
+                    padding: 13px 20px;
+                    border-radius:5px;
+                }
+                option:hover{
+                    background-color: #808080;
+                }
+            }
+        }
+        .content_list{
+            border: 1px solid gray;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid black;
+            .content_list1{
+                border: 1px solid gray;
+                overflow: hidden;
+                .content1_img{
+                    background-image: url("../img/1.gif");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    // border: 1px solid red;
+                    width: 100%;
+                    overflow: hidden;
+                    color: #fff;
+                    padding: 82% 7% 10% 7%;
+                    box-sizing: border-box;
+                    text-align: right;
+                    .ins{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1em;
+                        float: left;
+                    }
+                    .message{
+                        content:"\f086";
+                        margin-right: 15px;
+
+                    }
+                    .like{
+                        content:"\f004";
+                        float: right;
+                    }
+                }
+                .content1_con{
+                    div:nth-child(1){
+                        margin: 20px 7% 15px 7%;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1.14em;
+                        font-weight: bold;
+                        line-height: 26px;
+                    }
+                    div:nth-child(2){
+                        margin: 0 7% 0 7%;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 1em;
+                        line-height: 21px;
+                    }
+                }
+                .content1_user{
+                    border: 1px solid gray;
+                    text-align: center;
+                    padding: 20px 15px;
+                    overflow: hidden;
+                    .user_img{
+                        width: 50px;
+                        height: 50px;
+                        border: 1px solid green;
+                        float: left;
+                    }
+                    .user_text{
+                        .user_day{
+                            color: gray;
+                        }
+                    }
+                    .user_menu{
+                        content: "\f142";
+                        float: right;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
